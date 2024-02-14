@@ -15,3 +15,7 @@ Each image has a file name which is its unique id.
   - sample_submission.csv: contains correct form of sample submission to be made
 
 ### For better performance Will be using GPU in Google.colab.
+Because of the limited time one can use the free GPU in Colab I had to cut down the time for training.
+so as to achive this and be able to train the model and evaluate it, I had to reduce the number of classes and number of images in the data set frim  10,222 to  5149 images and the classes from 120 to 60 this was done randomly.By doing this i was able to utilize the GPU in colab and was able to train and test the model which had an accuracy of 91.5% 
+
+
